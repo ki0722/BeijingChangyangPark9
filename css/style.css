@@ -5,9 +5,28 @@
 
 html, body {
 		height: 100%;
-		background-image: url("../images/222.jpg");
+		background-color:#485563;
 		overflow: hidden;
 }
+
+body img {
+  position: absolute;
+  top: 2rem;
+  left: 5rem;
+  width:90px;
+}
+
+body h1 {
+  position: absolute;
+  top: 2rem;
+  left: 12rem;
+  font-size: 3vw;/*所有字体大小 根据画面尺寸 自动变换*/
+  background:-webkit-linear-gradient(0deg, #ACB6E5, #86FDE8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #FFFFBB;
+}
+
 
 /*****************************/
 
