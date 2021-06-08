@@ -222,8 +222,10 @@ body h1 {
 }
 
 #dummyCheckBox:checked ~ #container {
-	transition-delay: 0s;
+/*	transition-delay: 0s;
 	transform: translateX(25%);
+	*/
+
 }
 
 #dummyCheckBox:checked ~ #siteNavi {
