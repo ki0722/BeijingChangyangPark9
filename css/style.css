@@ -12,20 +12,22 @@ html, body {
 #logo {
   position: absolute;
   top: 0.2rem;
-  left: 6.5rem;
-  width: 7%;
+  left: 120px;
+  width: 60px;
 }
 
 body h1 {
   position: absolute;
   top: 0rem;
   left: 13rem;
-  font-size: 3.5vw;/*所有字体大小 根据画面尺寸 自动变换*/
+  font-size:24px;/*所有字体大小 根据画面尺寸 自动变换*/
   background:-webkit-linear-gradient(0deg, #ACB6E5, #86FDE8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: #FFFFBB;
 }
+
+
 
 
 /*****************************/
