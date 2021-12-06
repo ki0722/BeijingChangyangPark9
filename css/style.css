@@ -11,20 +11,21 @@ html, body {
 
 #logo {
   position: absolute;
-  top: 0.2rem;
-  left: 120px;
+  top: 2rem;
+  left: 90px;
   width: 60px;
 }
 
 body h1 {
   position: absolute;
-  top: 0rem;
-  left: 13rem;
+  top: 2rem;
+  left: 10rem;
   font-size:24px;/*所有字体大小 根据画面尺寸 自动变换*/
   background:-webkit-linear-gradient(0deg, #ACB6E5, #86FDE8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: #FFFFBB;
+	z-index: 999;
 }
 
 
@@ -45,21 +46,27 @@ body h1 {
 		transition-delay: .3s;
 		transition-duration: .5s;
 }
-		article#VIDEO  {
-		  width:95%;
-		  padding: 5%;
-		  text-align: justify;
-		  font-size: 0.85rem;
-		 }
+     /* #PHOTO */
+    article.PHOTO {
+   	padding: 3rem;
+  	background: #DDD;
+}
+	  article.PHOTO img {
+	 	width:100%;
+	}
 
-		 article#VIDEO video {
-		 	width: 95%;
+
+
+		 article h1{
+		 position: absolute;
+	   top: 2rem;
+	   left: 10rem;
+	   font-size:24px;/*所有字体大小 根据画面尺寸 自动变换*/
+	   background:-webkit-linear-gradient(0deg, #ACB6E5, #86FDE8);
+	   -webkit-background-clip: text;
+	   -webkit-text-fill-color: transparent;
+	   color: #FFFFBB;
 		  }
-
-
-
-
-
 
 /*****************************/
 
