@@ -8,13 +8,37 @@ html, body {
 		background-color:#485563;
 		overflow: hidden;
 }
+/**************** HEADER ***********/
 
-#logo {
+header {
+  position:relative;
+  height: 8rem;
+  background:linear-gradient(to top,#000011,#000055);
+  box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3);
+}
+
+header img {
   position: absolute;
   top: 2rem;
-  left: 90px;
-  width: 60px;
+  left: 50px;
+  width:90px;
 }
+
+header h1 {
+  position: absolute;
+  top: 40px;
+  left: 150px;
+  font-size: 1.5rem;/*所有字体大小 根据画面尺寸 自动变换*/
+  background:-webkit-linear-gradient(0deg, #ACB6E5, #86FDE8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #FFFFBB;
+}
+
+
+
+
+
 
 body h1 {
   position: absolute;
@@ -46,6 +70,29 @@ body h1 {
 		transition-delay: .3s;
 		transition-duration: .5s;
 }
+
+
+
+
+article#VIDEO  {
+	width:90%;
+	padding: 1%;
+	text-align: justify;
+	font-size: 1.85rem;
+	
+ }
+
+ article#VIDEO video {
+	width: 70%;
+
+	}
+
+
+
+
+
+
+
      /* #PHOTO */
     article.PHOTO {
    	padding: 3rem;
@@ -267,4 +314,23 @@ body h1 {
 	visibility: visible;
 	opacity: 1;
 	z-index: 3;
+}
+
+
+
+
+
+/************* FOOTER **************/
+
+footer {
+  padding: 2rem 3rem;
+  text-align: center;
+  background:linear-gradient(to top,#000055, #000011);
+  color: white;
+}
+
+footer p {
+  background:-webkit-linear-gradient(0deg, #98fb98, #86FDE8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
